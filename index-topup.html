@@ -1,0 +1,491 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <title>Leak Studio Top up Center</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i%7CSource+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="https://www.clashofmagic.cc/styles/style.css">
+  <link rel="stylesheet" type="text/css" href="https://www.clashofmagic.cc/styles/framework.css">
+  <link rel="stylesheet" type="text/css" href="https://www.clashofmagic.cc/fonts/css/fontawesome-all.min.css">
+  
+  
+  <style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  /* The Modal (background) */
+  .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+  }
+  
+  /* Modal Content */
+  .modal-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+  }
+  
+  /* The Close Button */
+  .close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  
+  .modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+  }
+  </style>
+  
+  
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+  <script>
+  function reloadPage(){
+  location.reload(true);
+  }
+  </script>
+  
+</head>
+
+<body class="theme-light" data-background="none" data-highlight="red1">
+
+  <div>
+
+    <div class="header header-fixed header-logo-center">
+      <a href="#" class="header-title"></a>
+   
+   <a href="#" class="header-icon header-icon-1"><img src="ls-logo.png" width="130" height="35"></a>
+ 
+      <a href="#" data-toggle-theme-switch class="header-icon header-icon-4"><i class="fas fa-lightbulb"></i></a>
+    </div>
+
+    <div class="page-content header-clear-medium">
+
+
+<img src="banner-topup.jpg" width="360" height="60">
+
+
+
+
+<table border="1">
+<tr>
+<td>
+</td>
+
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+<td>
+Diamond 100 + Bonus 110
+</td>
+
+<td>
+<button id="link100" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 130 </font>
+</button>
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td>
+</td>
+
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+<td>
+Diamond 210 + Bonus 231
+</td>
+
+<td>
+<button id="link210" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 270 </font>
+</button>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+</td>
+
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+
+<td>
+Diamond 530 + Bonus 583
+</td>
+
+<td>
+<button id="link530" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 650</font>
+</button>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td>
+</td>
+
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+
+<td>
+Diamond 1080 + Bonus 1188
+</td>
+
+<td>
+<button id="link1080" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 1250 </font>
+</button>
+</td>
+</tr>
+
+
+<tr>
+<td>
+</td>
+
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+
+<td>
+Diamond 100 + Bonus 100
+</td>
+
+<td>
+<button id="link" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 00
+</font>
+</button>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+</td>
+
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+
+<td>
+Diamond 310 + Bonus 310
+</td>
+
+<td>
+<button id="link" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 00
+</font>
+</button>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+</td>
+
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+
+<td>
+Diamond 520 + Bonus 520
+</td>
+
+<td>
+<button id="link" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 00
+</font>
+</button>
+</td>
+</tr>
+
+
+<tr>
+<td>
+</td>
+
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+
+<td>
+Diamond 1060 + Bonus 1060
+</td>
+
+<td>
+<button id="link" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 00
+</font>
+</button>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<button style="background-color:white;padding:20px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="black">
+ </font>
+</button>
+</td>
+<td>
+<img src="https://cdngarenanow-a.akamaihd.net/gop/app/0000/100/067/point.png" width="20" height="20">
+</td>
+<td>
+Diamond 2180 + Bonus 2180
+</td>
+
+<td>
+<button id="link" style="background-color:red;padding:10px 20px;color:#fff;border-radius:5px;text-decoration:none;" type="submit">
+<font color="white">
+৳. 00
+</font>
+</button>
+</td>
+</tr>
+
+
+</table>
+
+
+
+<br>
+<center>
+2020 © Leak Studio International 
+</center>
+       
+       
+       <!--Menu Settings-->
+    <div style="display:none">
+      <div class="toggle-with-icon">
+        <i class="toggle-icon round-tiny fa fa-moon bg-red2-dark color-white"></i>
+        <a href="#" class="toggle-switch toggle-ios toggle-off" data-toggle-theme data-toggle-height="27" data-toggle-width="50" data-toggle-content="toggle-content-1" data-toggle-checkbox="toggle-checkbox-1" data-bg-on="bg-green1-dark" data-bg-off="">
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-hider"></div>
+  </div></div>
+
+
+  <script src="https://www.clashofmagic.cc/scripts/jquery.js"></script>
+  <script src="https://www.clashofmagic.cc/scripts/plugins.js"></script>
+  <script src="https://www.clashofmagic.cc/scripts/custom.js"></script>
+
+
+
+<script type="text/javascript">
+
+// Alert Redirect to Another Link
+$(document).on('click', '#link', function(e) {
+swal({
+title: "Not Available!", 
+text: "", 
+type: "info",
+confirmButtonText: "Confirm",
+showCancelButton: true
+})
+.then((result) => {
+if (result.value) {
+window.location = '#';
+} else if (result.dismiss === 'cancel') {
+swal(
+'Cancelled',
+'',
+'error'
+)
+}
+})
+});
+
+
+// Alert Redirect to Another Link
+$(document).on('click', '#link100', function(e) {
+swal({
+title: "Diamond 100 + Bonus 110", 
+text: "You will be redirected to payment center.", 
+type: "warning",
+confirmButtonText: "Confirm",
+showCancelButton: true
+})
+.then((result) => {
+if (result.value) {
+window.location = 'index-topup-100.html';
+} else if (result.dismiss === 'cancel') {
+swal(
+'Cancelled',
+'Your stay here :)',
+'error'
+)
+}
+})
+});
+
+
+// Alert Redirect to Another Link
+$(document).on('click', '#link210', function(e) {
+swal({
+title: "Diamond 210 + Bonus 231", 
+text: "You will be redirected to payment center.", 
+type: "warning",
+confirmButtonText: "Confirm",
+showCancelButton: true
+})
+.then((result) => {
+if (result.value) {
+window.location = 'index-topup-210.html';
+} else if (result.dismiss === 'cancel') {
+swal(
+'Cancelled',
+'Your stay here :)',
+'error'
+)
+}
+})
+});
+
+
+
+// Alert Redirect to Another Link
+$(document).on('click', '#link530', function(e) {
+swal({
+title: "Diamond 530 + Bonus 583", 
+text: "You will be redirected to payment center.", 
+type: "warning",
+confirmButtonText: "Confirm",
+showCancelButton: true
+})
+.then((result) => {
+if (result.value) {
+window.location = 'index-topup-530.html';
+} else if (result.dismiss === 'cancel') {
+swal(
+'Cancelled',
+'Your stay here :)',
+'error'
+)
+}
+})
+});
+
+
+
+// Alert Redirect to Another Link
+$(document).on('click', '#link1080', function(e) {
+swal({
+title: "Diamond 1080 + Bonus 1188", 
+text: "You will be redirected to payment center.", 
+type: "warning",
+confirmButtonText: "Confirm",
+showCancelButton: true
+})
+.then((result) => {
+if (result.value) {
+window.location = 'index-topup-1080.html';
+} else if (result.dismiss === 'cancel') {
+swal(
+'Cancelled',
+'Your stay here :)',
+'error'
+)
+}
+})
+});
+
+
+
+</script>
+
+</body>
+</html>
+
+
